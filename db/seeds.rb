@@ -6,9 +6,20 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# User.create(name: Faker::Name.name)
-# User.create(name: Faker::Name.name)
-# User.create(name: Faker::Name.name)
+t1 = User.create(name: Faker::Name.name)
+t2 = User.create(name: Faker::Name.name)
+t3 = User.create(name: Faker::Name.name)
 
 
-# Destination.create(country:Faker::Address.country, city:Faker::Address.city, star_rating: )
+d1 = Destination.create(country:, city:, star_rating: )
+d2 = Destination.create(country:, city:, star_rating: )
+d3 = Destination.create(country:, city:, star_rating: )
+d4 = Destination.create(country:, city:, star_rating: )
+d5 = Destination.create(country:, city:, star_rating: )
+
+a1 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
+a2 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
+a3 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
+a4 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
+a5 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
+a6 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
