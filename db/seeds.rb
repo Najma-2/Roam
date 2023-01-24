@@ -5,10 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+puts "Seeding the database"
 
-t1 = User.create(name: Faker::Name.name)
-t2 = User.create(name: Faker::Name.name)
-t3 = User.create(name: Faker::Name.name)
+t1 = User.create(name: "Victora", password:"1234")
+t2 = User.create(name: "Ana", password:"1234")
+t3 = User.create(name: "Najma", password:"1234")
 
 
 d1 = Destination.create(country: "Switzerland", city: "Lucerne" , star_rating: 5 )
@@ -23,4 +24,6 @@ a3 = Attraction.create(location: "Plaza Mayor", rating: 4, destination_id: d3.id
 a4 = Attraction.create(location: "Ponte Vecchio", rating: 8, destination_id: d4.id, user_id: t3.id)
 a5 = Attraction.create(location: "Reynisfjara Beach", rating: 2, destination_id: d5.id, user_id: t3.id)
 a6 = Attraction.create(location:"David of Michelangelo", rating: 5, destination_id: d4.id, user_id: t1.id)
-a1 = Attraction.create(location: "Louvre Museum", rating: 1, destination_id: d2.id, user_id: t3.id)
+a7 = Attraction.create(location: "Louvre Museum", rating: 1, destination_id: d2.id, user_id: t3.id)
+
+puts "Done!"

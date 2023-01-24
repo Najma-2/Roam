@@ -3,7 +3,7 @@ skip_before_action :authorize, only: :login
 
 def login
     user = User.find_by(name: params[:name])
-    if user && user.authenticate(params[:password_digest])
+    if user && user.authenticate(params[:password])
         session[:user_id] = user.id
         render json: user, status: :ok
     
