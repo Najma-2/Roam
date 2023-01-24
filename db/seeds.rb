@@ -24,4 +24,3 @@ a4 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
 a5 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
 a6 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
 a1 = Attraction.create(location:, rating:, destination_id: .id, user_id: .id)
-Victoria Test
