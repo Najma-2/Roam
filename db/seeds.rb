@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# User.create(name: Faker::Name.name)
+# User.create(name: Faker::Name.name)
+# User.create(name: Faker::Name.name)
+
+
+# Destination.create(country:Faker::Address.country, city:Faker::Address.city, star_rating: )
