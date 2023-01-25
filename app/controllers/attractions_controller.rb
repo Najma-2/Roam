@@ -1,6 +1,6 @@
 class AttractionsController < ApplicationController
     
-    def show
-        attractions = 
-    end
+    # def show
+    #     attractions = 
+    # end
 end

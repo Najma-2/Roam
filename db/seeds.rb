@@ -13,7 +13,7 @@ t3 = User.create(name: "Najma", password:"1234")
 
 
 d1 = Destination.create(country: "Switzerland", city: "Lucerne" , star_rating: 5 )
-d2 = Destination.create(country:'France', city:'Paris', star_rating: 4.67 )
+d2 = Destination.create(country:'France', city:'Paris', star_rating: 4 )
 d3 = Destination.create(country:"Spain", city: "Madrid", star_rating: 3 )
 d4 = Destination.create(country: "Italy", city:"Florence", star_rating: 5)
 d5 = Destination.create(country: "Iceland", city: "Vik" , star_rating: 2 )
