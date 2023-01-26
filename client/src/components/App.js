@@ -8,6 +8,7 @@ import NavBar from "./NavBar";
 import DestinationPage from "./DestinationPage";
 import Profile from "./Profile";
 
+
 function App() {
   const [page, setPage] = useState("/");
 
@@ -53,6 +54,7 @@ function App() {
       
         </Route>
       </Routes>
+
     </div>
   );
 }
